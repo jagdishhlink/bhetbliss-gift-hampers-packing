@@ -13,50 +13,51 @@ export const businessData = {
   reviewsCount: "",
   openingHours: "Show open hours for the week",
   logo: null,
-  images: ["/images/gmap_1780059258148_0.jpg", "/images/gmap_1780059258199_1.jpg"],
+  images: ["/images/gmap_1780059625926_0.jpg", "/images/gmap_1780059625979_1.jpg"],
   description: "",
   socials: {},
 };
 
 export const aiContent = {
-  tagline: "Gifts packed with bliss in Ahmedabad",
-  heroDescription: "Bhetbliss gift hampers packing is a leading corporate gift supplier located in the heart of Ahmedabad, at  1836, opp. aksh parisar, Kumudnagar Society, Ghatlodiya, Chanakyapuri. We offer a wide range of gift hampers that cater to various corporate needs. Our team of experts ensures that every gift hamper is packed with love and care to bring a smile to the recipient's face.",
-  aboutTitle: "The Gift of Joy in Every Hamper",
-  aboutText: "At Bhetbliss gift hampers packing, we take pride in our ability to create unique and thoughtful gift hampers that reflect the warmth and hospitality of Ahmedabad. Our location at  1836, opp. aksh parisar, Kumudnagar Society, Ghatlodiya, Chanakyapuri, allows us to stay connected with the local community and understand their preferences. Our team is dedicated to providing exceptional service and ensuring that every gift hamper is a reflection of our commitment to excellence. We strive to build long-term relationships with our clients and help them make a lasting impression on their customers and employees.",
+  tagline: "Gujarat's Finest Gift Hampers",
+  heroDescription: "Discover the art of gift-giving with Bhetbliss gift hampers packing, located in the heart of Ahmedabad. Our expertly crafted hampers are designed to impress your clients and colleagues. With a wide range of options to choose from, you're sure to find the perfect gift for any occasion.",
+  aboutTitle: "The Bhetbliss Story",
+  aboutText: "Nestled in the vibrant Kumudnagar Society, our workshop at  1836, opp. aksh parisar, Ghatlodiya, Chanakyapuri, is where the magic happens. Our team of skilled artisans and designers work tirelessly to create unique and thoughtful gift hampers that reflect the spirit of Ahmedabad. With a focus on quality and attention to detail, we're dedicated to providing exceptional service to our clients.",
   services: [
-    { icon: "🎁", title: "Customized Gift Hampers", description: "We offer bespoke gift hampers that cater to your specific needs, with prices starting from ₹1048" },
-    { icon: "📦", title: "Same-Day Delivery in Ahmedabad", description: "We provide same-day delivery services in Ahmedabad, ensuring that your gifts reach the recipient on time, at a nominal fee of ₹786" },
-    { icon: "👥", title: "Corporate Gift Solutions", description: "Our team of experts will help you choose the perfect gift hampers for your employees, clients, or business partners, with packages starting from ₹2191" },
-    { icon: "🍰", title: "Gourmet Gift Baskets", description: "We offer a range of gourmet gift baskets filled with delicious treats, such as chocolates, cookies, and teas, priced at ₹3552" },
-    { icon: "📈", title: "Gift Hamper Subscription Service", description: "Our subscription service allows you to send gift hampers to your loved ones on a regular basis, with plans starting from ₹1782 per month" },
-    { icon: "🎉", title: "Event-Based Gift Hampers", description: "We create special gift hampers for various events, such as Diwali, Christmas, and New Year's, with prices starting from ₹1298" }
+    { icon: "🎁", title: "Customized Gift Hampers", description: "Tailor-made hampers to suit your corporate gifting needs, starting at ₹408" },
+    { icon: "📦", title: "Same-Day Delivery", description: "Get your gifts delivered within Ahmedabad on the same day, for orders placed before 12 pm, at ₹521" },
+    { icon: "👥", title: "Corporate Gifting Solutions", description: "Expert advice and bulk ordering options for businesses, with prices starting at ₹914" },
+    { icon: "🎉", title: "Special Occasion Hampers", description: "Thoughtfully curated hampers for festivals and special events, priced at ₹1197" },
+    { icon: "📈", title: "Gift Hamper Subscription", description: "Monthly or quarterly subscription options for regular gifting, starting at ₹1681" },
+    { icon: "👨‍👩‍👧‍👦", title: "Personalized Gift Hampers", description: "Unique and personalized hampers for employees, clients, or loved ones, priced at ₹4219" }
   ],
   whyChooseUs: [
-    { icon: "🏙️", title: "Local Expertise", description: "Our team has in-depth knowledge of Ahmedabad and its preferences, allowing us to create gift hampers that are tailored to the local taste" },
-    { icon: "💼", title: "Corporate Experience", description: "We have years of experience in providing corporate gift solutions to businesses in Ahmedabad, ensuring that our gift hampers meet the highest standards" },
-    { icon: "🎁", title: "Unique Gift Ideas", description: "Our team is constantly coming up with new and innovative gift ideas that will help you stand out from the crowd" }
+    { icon: "🏙️", title: "Local Expertise", description: "Our team has in-depth knowledge of Ahmedabad and its corporate gifting needs" },
+    { icon: "🎨", title: "Creative Gift Solutions", description: "We offer bespoke gift hampers that reflect your brand's personality and style" },
+    { icon: "📦", title: "Reliable Delivery", description: "Timely and efficient delivery of our gift hampers, ensuring your gifts arrive on time" },
+    { icon: "👥", title: "Personalized Service", description: "Dedicated customer support and personalized service to ensure your gifting needs are met" }
   ],
   testimonials: [
-    { name: "Eleanor Fernandes", role: "Marketing Manager at XYZ Corporation", text: "Bhetbliss gift hampers packing has been our go-to destination for corporate gifts. Their customized gift hampers are a hit with our clients and employees. The team is professional, responsive, and always delivers on time.", rating: 5 },
-    { name: "Evan D'Souza", role: "HR Manager at ABC Ltd.", text: "We have been using Bhetbliss gift hampers packing for our employee appreciation programs, and the feedback has been overwhelmingly positive. The gift hampers are thoughtfully curated and beautifully presented.", rating: 5 },
-    { name: "Evelyn Mascarenhas", role: "Event Planner at DEF Events", text: "I have worked with Bhetbliss gift hampers packing on several events, and their gift hampers are always a highlight. The team is creative, reliable, and attentive to detail.", rating: 5 }
+    { name: "Lakshmi Narayan", role: "Marketing Manager", text: "Bhetbliss gift hampers packing has been our go-to corporate gifting partner for years. Their customized gift hampers are always a hit with our clients. We recently ordered their special occasion hampers for a festival and received great feedback from our clients.", rating: 5 },
+    { name: "Lalita Jain", role: "HR Manager", text: "The team at Bhetbliss is incredibly professional and responsive. They helped us create personalized gift hampers for our employees, which were appreciated by all. Their same-day delivery option is also very convenient.", rating: 5 },
+    { name: "Lokesh Mehta", role: "Business Owner", text: "I've been impressed with the quality and variety of gift hampers offered by Bhetbliss. Their corporate gifting solutions have helped me build strong relationships with my clients. I highly recommend their services to anyone looking for unique and thoughtful gifts.", rating: 5 }
   ],
-  faq: { items: [{ question: "What is the minimum order quantity for customized gift hampers?", answer: "The minimum order quantity for customized gift hampers is 10 units. However, we can accommodate smaller orders for an additional fee of ₹500" },
-    { question: "Do you offer same-day delivery in Ahmedabad?", answer: "Yes, we offer same-day delivery in Ahmedabad for orders placed before 12 pm. Please note that same-day delivery is subject to availability and may not be possible during peak seasons or holidays" },
-    { question: "Can I customize the gift hampers with my company's logo or branding?", answer: "Yes, we offer customization options for gift hampers, including logo printing, branding, and personalized messages. Please contact us for more information and pricing" },
-    { question: "What is the average lead time for gift hamper production?", answer: "The average lead time for gift hamper production is 3-5 working days. However, this may vary depending on the complexity of the design and the quantity of the order" },
-    { question: "Do you offer gift wrapping services?", answer: "Yes, we offer gift wrapping services for an additional fee of ₹200 per unit. Our gift wrapping options include premium paper, ribbons, and bows" },
-    { question: "Can I cancel or change my order once it has been placed?", answer: "Please contact us as soon as possible if you need to cancel or change your order. We will do our best to accommodate your request, but please note that we may not be able to make changes once the order has been processed" }] },
-  ctaTitle: "Elevate Your Gifting Experience",
-  ctaDescription: "Contact us today to explore our range of gift hampers and experience the Bhetbliss difference. Our team is dedicated to providing exceptional service and ensuring that every gift hamper is a reflection of our commitment to excellence.",
-  ctaButtonText: "Get a Quote Now",
-  metaDescription: "Bhetbliss gift hampers packing: Ahmedabad's premier corporate gift supplier",
+  faq: { items: [{ question: "What areas do you deliver to in Ahmedabad?", answer: "We deliver to all areas in Ahmedabad, including Ghatlodiya, Chanakyapuri, and surrounding areas. Our same-day delivery option is available for orders placed before 12 pm." },
+    { question: "Can I customize the gift hampers with my company's logo?", answer: "Yes, we offer customization options for our gift hampers, including logo printing and branding. Please contact us to discuss your requirements." },
+    { question: "What is the minimum order quantity for corporate gifting?", answer: "We do not have a minimum order quantity for corporate gifting. However, discounts are available for bulk orders. Please contact us to discuss your requirements." },
+    { question: "How do I track my order?", answer: "You can track your order by contacting our customer support team. We will provide you with updates on the status of your order." },
+    { question: "Can I return or exchange a gift hamper?", answer: "Please see our return and exchange policy for details. We strive to ensure that our gift hampers meet your expectations, but if you're not satisfied, please contact us to discuss your options." },
+    { question: "How do I pay for my order?", answer: "We accept various payment methods, including online payment, bank transfer, and cash on delivery. Please contact us to discuss your payment options." }] },
+  ctaTitle: "Elevate Your Corporate Gifting",
+  ctaDescription: "Discover the perfect gift hampers for your business partners, clients, or employees. Contact us to learn more about our corporate gifting solutions.",
+  ctaButtonText: "Get Started Today",
+  metaDescription: "Bhetbliss gift hampers packing: Expert corporate gift suppliers in Ahmedabad",
 };
 
 export const siteConfig = {
   layout: "organic-shapes",
   theme: "elegant",
-  sections: ["testimonials", "faq", "services", "about", "contact", "gallery"],
+  sections: ["testimonials", "gallery", "faq", "services", "about", "contact"],
   heroVariant: "image-collage",
   navStyle: "centered-nav",
   animationStyle: "scroll-triggered-reveals",

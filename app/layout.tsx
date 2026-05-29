@@ -4,8 +4,8 @@ import "../src/styles/globals.css";
 import { businessData, aiContent } from "@/data/site-data";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
 
-const bodyFont = Roboto({ subsets: ["latin"], variable: "--font-body" });
-const headingFontLoaded = Bebas_Neue({ subsets: ["latin"], variable: "--font-heading", weight: ['400'] });
+const bodyFontLoaded = Roboto({ subsets: ["latin"], weight: ["300", "400", "500", "700"], variable: "--font-body" });
+const headingFontLoaded = Bebas_Neue({ subsets: ["latin"], weight: ["400"], variable: "--font-heading" });
 
 export const metadata: Metadata = {
   title: `${businessData.name} — ${aiContent.tagline}`,
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${bodyFont.variable} ${headingFontLoaded.variable} font-body antialiased bg-background text-foreground`}>
+      <body className={`${bodyFontLoaded.variable} ${headingFontLoaded.variable} font-body antialiased bg-background text-foreground`}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

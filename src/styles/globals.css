@@ -12,8 +12,8 @@
   --color-card-text: #292524;
   --color-muted: #9ca3af;
   --color-border: rgba(0,0,0,0.08);
-  --font-heading: Playfair Display;
-  --font-body: Inter;
+  --font-heading: Bebas Neue;
+  --font-body: Roboto;
 }
 
 .dark {
